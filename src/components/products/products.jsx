@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Products = ({ waste }) => {
+const Products = ({ waste, setCurrentWaste }) => {
     
     return (
         <div className="container-products">
@@ -11,7 +11,7 @@ const Products = ({ waste }) => {
                     const getWaste = () => {
                         for(let wasteElement of waste) {
                             if(e.target.value === wasteElement.products) {
-                                console.log(wasteElement.wasteProducts)
+                                setCurrentWaste(wasteElement.wasteProducts);
                             }
                         }
                     }

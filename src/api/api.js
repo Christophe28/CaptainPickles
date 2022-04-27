@@ -21,3 +21,10 @@ export const waste = [
         ]
     }
 ]
+
+export const typesOfWasteContainers = [
+    "bleu",
+    "blanche",
+    "verre",
+    "carton",
+]
