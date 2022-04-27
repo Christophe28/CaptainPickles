@@ -1,5 +1,6 @@
 //React import
 import React from 'react';
+import { useState, useEffect } from 'react';
 
 //Functions, data import
 import { waste } from '../api/api';
@@ -8,6 +9,7 @@ import { waste } from '../api/api';
 import Products from '../components/products';
 
 const Home = () => {
+    const [currentWaste, setCurrentWaste] = useState([]);
 
     return (
         <div className="container-home">

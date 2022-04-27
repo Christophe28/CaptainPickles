@@ -4,15 +4,31 @@ const Products = ({ waste }) => {
     
     return (
         <div className="container-products">
-            <ul>
+            <select 
+                name="dropdown-waste" 
+                onClick={(e) => {
+                    //Déplacer la fonction par après. de plus elle devra comparer et push dans le currentwaste
+                    const getWaste = () => {
+                        for(let wasteElement of waste) {
+                            if(e.target.value === wasteElement.products) {
+                                console.log(wasteElement.wasteProducts)
+                            }
+                        }
+                    }
+                    getWaste();
+                }}
+            >
                 {
                     waste.map((wasteProducts) => (
-                        <li key={wasteProducts.products} onClick={(e) => console.log(wasteProducts.wasteProducts)}>
+                        <option 
+                            key={wasteProducts.products} 
+                            value={wasteProducts.products}
+                        >
                             {wasteProducts.products}
-                        </li>
+                        </option>
                     ))
                 }
-            </ul>
+            </select>
         </div>
     );
 };

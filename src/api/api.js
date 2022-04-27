@@ -2,28 +2,22 @@ export const waste = [
     {
         products: "Pot chocolat",
         wasteProducts: [
-            {
-                cover: "plastique",
-                layer : "alluminium",
-                contener: "verre"
-            }
+            "plastique",
+            "alluminium",
+            "verre"
         ]
     },
     {
         products: "Spaghetti liddl",
         wasteProducts: [
-            {
-                cover: "plastique"
-            }
+            "plastique"
         ]
     },
     {
         products: "Camembert",
         wasteProducts: [
-            {
-                cover: "carton",
-                layer: "plastique"
-            }
+            "carton",
+            "plastique"
         ]
     }
 ]
