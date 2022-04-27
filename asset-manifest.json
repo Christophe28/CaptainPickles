@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/CaptainPickles/static/css/main.31d6cfe0.css",
-    "main.js": "/CaptainPickles/static/js/main.c84dbcde.js",
+    "main.js": "/CaptainPickles/static/js/main.da836736.js",
     "index.html": "/CaptainPickles/index.html",
-    "main.c84dbcde.js.map": "/CaptainPickles/static/js/main.c84dbcde.js.map"
+    "main.da836736.js.map": "/CaptainPickles/static/js/main.da836736.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.c84dbcde.js"
+    "static/js/main.da836736.js"
   ]
 }
