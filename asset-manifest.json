@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/CaptainPickles/static/css/main.31d6cfe0.css",
-    "main.js": "/CaptainPickles/static/js/main.ee0d385a.js",
+    "main.css": "/CaptainPickles/static/css/main.17df2a0a.css",
+    "main.js": "/CaptainPickles/static/js/main.f5b67484.js",
     "index.html": "/CaptainPickles/index.html",
-    "main.ee0d385a.js.map": "/CaptainPickles/static/js/main.ee0d385a.js.map"
+    "main.17df2a0a.css.map": "/CaptainPickles/static/css/main.17df2a0a.css.map",
+    "main.f5b67484.js.map": "/CaptainPickles/static/js/main.f5b67484.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.ee0d385a.js"
+    "static/css/main.17df2a0a.css",
+    "static/js/main.f5b67484.js"
   ]
 }

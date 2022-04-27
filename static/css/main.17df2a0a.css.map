@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.17df2a0a.css","mappings":"AAAA,iBACI,sBCDe","sources":["styles/components/trash.scss","styles/__settings.scss"],"sourcesContent":[".container-trash {\n    background-color: $color_good;\n}","$color_good : green;\n$color_middle: orange;\n$color_bad: red;\n"],"names":[],"sourceRoot":""}
